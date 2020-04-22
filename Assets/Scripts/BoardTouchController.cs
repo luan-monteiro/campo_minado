@@ -19,8 +19,10 @@ public class BoardTouchController : MonoBehaviour
         //Usamos este evento para chamar uma função de criar board no BoardController
         on_click_event = new UnityEvent();
         board_controller = gameObject.GetComponent<BoardController>();
-        on_click_event.AddListener(board_controller.create_board);
-        on_click_event.AddListener(send_clicked_block_position);
+       // on_click_event.AddListener(board_controller.create_board);
+       // on_click_event.AddListener(send_clicked_block_position);
+
+
     }
 
     // Update is called once per frame
@@ -33,11 +35,11 @@ public class BoardTouchController : MonoBehaviour
             {
                 if (first_hit)
                 {
-                    on_click_event.Invoke();
-                    on_click_event.RemoveListener(gameObject.GetComponent<BoardController>().create_board);
-                    first_hit = false;
+                 //   on_click_event.Invoke();
+                 //   on_click_event.RemoveListener(gameObject.GetComponent<BoardController>().create_board);
+                //    first_hit = false;
                 }
-                hit.transform.gameObject.GetComponent<BreakableTile>().clicked = true;
+             //   hit.transform.gameObject.GetComponent<BreakableTile>().clicked = true;
             }
         }
 

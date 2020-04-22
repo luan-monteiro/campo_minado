@@ -37,6 +37,7 @@ public class BreakableTile : MonoBehaviour
                     break;
                 case 1: //Bomba
                     image_component.sprite = bomb;
+                    //make_all_bombs_appear();
                     clicked = false;
                     break;
                 case 2: //Numero1

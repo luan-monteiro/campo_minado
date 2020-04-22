@@ -96,15 +96,15 @@ MonoBehaviour:
   id: 0
   clicked: 1
   _0: {fileID: 21300014, guid: c537e12fe75e4264d83c3c81d70bf591, type: 3}
-  _1: {fileID: 21300000, guid: d6a0806005354224c965133d30b8a918, type: 3}
-  _2: {fileID: 21300000, guid: c011c159f058c9d4dab25901552664e4, type: 3}
-  _3: {fileID: 21300000, guid: 93f8bf5a49936154abdad461db7c27c5, type: 3}
-  _4: {fileID: 21300000, guid: a23f0670a6da047479bce9b4e9c261f6, type: 3}
-  _5: {fileID: 21300000, guid: 8be29e50d74279c4b9789cb138b9cd67, type: 3}
-  _6: {fileID: 21300000, guid: c862bed7be517cb409bcbb040e779fdb, type: 3}
-  _7: {fileID: 21300000, guid: 0eacd4ecd82f2304db646f709b2ec1df, type: 3}
-  _8: {fileID: 21300000, guid: adb044fcfc30f324d999ecb51195c3eb, type: 3}
-  bomb: {fileID: 21300000, guid: da5ad0e9d5bcbb846a0d2afaa53a686f, type: 3}
+  _1: {fileID: 21300000, guid: 26ea6892827d7df4c805aa49678cc44c, type: 3}
+  _2: {fileID: 21300000, guid: 99251d99dae8a314f9590cfc32609573, type: 3}
+  _3: {fileID: 21300000, guid: 9a6b0e58ce48e4f49a2602b4945e9dc6, type: 3}
+  _4: {fileID: 21300000, guid: de8b50a3ca09de745803e44547c77494, type: 3}
+  _5: {fileID: 21300000, guid: 0441121962320e841a082565990699b0, type: 3}
+  _6: {fileID: 21300000, guid: 772123b17de90024ab106ddce5994474, type: 3}
+  _7: {fileID: 21300000, guid: e19ca693ac5ad534494cd1aeb38bf202, type: 3}
+  _8: {fileID: 21300000, guid: b73accc4a469b3f4899052e5f26551e0, type: 3}
+  bomb: {fileID: 21300000, guid: 50a5c451a9de3d34987a7b39b1c32591, type: 3}
   flag: {fileID: 21300000, guid: 499e1ecff16205f469af6042b98cbd4d, type: 3}
 --- !u!65 &65017437975991382
 BoxCollider:
